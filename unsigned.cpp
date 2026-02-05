@@ -2,9 +2,9 @@
 
 int main()
 {
-	unsigned int u = 2;
-	signed int s = 3;
-	std::cout << u - s << '\n'; // 2 - 3 = 4294967295
+    unsigned int u = 2;
+    signed int s = 3;
+    std::cout << u - s << '\n'; // 2 - 3 = 4294967295
 
     signed int s2 = -1;
     unsigned int u2 = 1;
@@ -13,5 +13,5 @@ int main()
     else
         std::cout << "1 is less than -1\n"; // this statement executes
 
-	return 0;
+    return 0;
 }
