@@ -1,5 +1,5 @@
 CC = dmc
-CCFLAGS = -v1
+CCFLAGS = -v1 -Ae
 INCLUDE = -IC:\\tools\\dm\\stlport\\stlport -I.\\include
 LIBS = .\\lib\\glfw3.lib winmm.lib wsock32.lib ws2_32.lib
 
