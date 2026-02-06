@@ -2,8 +2,8 @@
 #include <GLFW/glfw3.h>
 #include <stb_image.h>
 
-#include <learnopengl/filesystem.h>
-#include <learnopengl/shader_s.h>
+#include <filesystem.h>
+#include "shader_s.h"
 
 #include <iostream>
 
