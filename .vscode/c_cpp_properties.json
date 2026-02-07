@@ -3,8 +3,10 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:/tools/dm/stlport/stlport"
+                "C:/tools/dm/stlport/stlport",
+                "C:/tools/dm/include",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
